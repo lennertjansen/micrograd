@@ -1,0 +1,18 @@
+# venv
+.venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# jupyter
+.ipynb_checkpoints/
+
+# ruff
+.ruff_cache/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
