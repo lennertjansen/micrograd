@@ -1,8 +1,6 @@
 # Micrograd
 
-My implementation of Karpathy's Micrograd: a tiny scalar-valued autograd engine and a small neural net library on top of it with a PyTorch-like API.
-
-Built by following along with the video below, mostly in `micrograd_from_scratch.ipynb`.
+My implementation of Karpathy's Micrograd: a tiny scalar-valued autograd engine and a small neural net library on top of it with a PyTorch-like API. Mostly in `micrograd_from_scratch.ipynb`.
 
 ## Setup
 
