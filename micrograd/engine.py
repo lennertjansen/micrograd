@@ -2,9 +2,9 @@ import math
 
 class Value:
     """
-    A scalar value in a computation graph that support automatic differentiation. 
+    A scalar value in a computation graph that supports automatic differentiation. 
     
-    Each operation builds the graphs by recording its inputs, 
+    Each operation builds the graph by recording its inputs, 
     and backward() walks that graph in reverse topological order applying the chain rule to fill in .grad.
     """
 
