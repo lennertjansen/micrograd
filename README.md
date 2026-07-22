@@ -1,6 +1,6 @@
 # micrograd
 
-My from-scratch implementation of [Karpathy's micrograd](https://github.com/karpathy/micrograd): a tiny scalar-valued autograd engine (`micrograd/engine.py`) and a small neural net library on top of it (`micrograd/nn.py`) with a PyTorch-like API. Backprop runs over a dynamically built DAG of scalar `Value`s — small enough to read in one sitting, but enough to train an MLP.
+My from-scratch implementation of [Karpathy's micrograd](https://github.com/karpathy/micrograd): a tiny scalar-valued autograd engine (`micrograd/engine.py`) and a small neural net library on top of it (`micrograd/nn.py`) with a PyTorch-like API. Backprop runs over a DAG of scalar `Value`s.
 
 Built by following ["The spelled-out intro to neural networks and backpropagation"](https://www.youtube.com/watch?v=VMj-3S1tku0), with `micrograd_from_scratch.ipynb` as the scratchpad along the way.
 
