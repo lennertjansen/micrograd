@@ -1,5 +1,7 @@
 # micrograd
 
+**Disclaimer: this repo is strictly for my own educational/didactic purposes.**
+
 My from-scratch implementation of [Karpathy's micrograd](https://github.com/karpathy/micrograd): a tiny scalar-valued autograd engine (`micrograd/engine.py`) and a small neural net library on top of it (`micrograd/nn.py`) with a PyTorch-like API. Backprop runs over a DAG of scalar `Value` objects.
 
 Built by following ["The spelled-out intro to neural networks and backpropagation"](https://www.youtube.com/watch?v=VMj-3S1tku0), with `demo.ipynb` as the scratchpad along the way.
@@ -59,6 +61,6 @@ The tests cross-check forward and backward passes against PyTorch:
 uv run pytest
 ```
 
-## License
+## AI statement
 
-MIT
+No AI was used to write the code. Claude Code (Opus 4.8 and Fable 5) drafted and edited this README, and reviewed and refined my handwritten notes and comments in the notebooks.
