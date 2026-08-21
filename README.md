@@ -63,4 +63,4 @@ uv run pytest
 
 ## AI statement
 
-No AI was used to write the code. Claude Code (Opus 4.8 and Fable 5) drafted and edited this README, and reviewed and refined my handwritten notes and comments in the notebooks.
+No AI was used to write the core functional code. Claude Code (Opus 4.8 and Fable 5) drafted and edited this README, expanded the test suite after receiving handwritten examples, and reviewed and refined my handwritten notes and comments in the notebooks.
